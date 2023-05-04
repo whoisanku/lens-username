@@ -5,7 +5,7 @@ import { IoSearch } from "react-icons/io5";
 import Layout from "../../components/nav/Layout";
 import Link from "next/link";
 
-const index = () => {
+const Index = () => {
   const router = useRouter();
   const { user } = router.query;
 
@@ -134,4 +134,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
